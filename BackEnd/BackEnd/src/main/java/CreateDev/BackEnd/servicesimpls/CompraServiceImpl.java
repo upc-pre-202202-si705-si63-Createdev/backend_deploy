@@ -12,7 +12,10 @@ public class CompraServiceImpl implements ICompraService {
     @Autowired
     private ICompraRepository cR;
 
-
+    @Override
+    public void insert(Compra compra) {
+        cR.save(compra);
+    }
     @Override
     public List<Compra> list(){return cR.findAll();}
 

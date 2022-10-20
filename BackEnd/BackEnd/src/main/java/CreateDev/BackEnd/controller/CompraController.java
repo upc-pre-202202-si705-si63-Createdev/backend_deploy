@@ -16,4 +16,7 @@ public class CompraController {
     @GetMapping
     public List<Compra> listar(){return cService.list();}
 
+    @PostMapping
+    public void registrar(@RequestBody Compra c){cService.insert(c);}
+
 }
