@@ -10,9 +10,9 @@ public class Compra {
 
     }
 
-    public Compra(int id, String nombre, int cantidad, float precio_total, float peso_total, int tipo_comprobante, String fecha_cancelacion) {
+    public Compra(int id, String nombre_usuario, int cantidad, float precio_total, float peso_total, int tipo_comprobante, String fecha_cancelacion) {
         this.id = id;
-        this.nombre = nombre;
+        this.nombre_usuario = nombre_usuario;
         this.cantidad = cantidad;
         this.precio_total = precio_total;
         this.peso_total = peso_total;
@@ -24,8 +24,8 @@ public class Compra {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "nombre",length = 55,nullable = false)
-    private String nombre;
+    @Column(name = "nombre_usuario",length = 55,nullable = false)
+    private String nombre_usuario;
 
     @Column(name = "cantidad",length = 55,nullable = false)
     private int cantidad;
@@ -51,11 +51,11 @@ public class Compra {
     }
 
     public String getNombre() {
-        return nombre;
+        return nombre_usuario;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre(String nombre_usuario) {
+        this.nombre_usuario = nombre_usuario;
     }
 
     public int getCantidad() {
