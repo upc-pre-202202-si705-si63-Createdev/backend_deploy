@@ -5,9 +5,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
 public interface ICompraService {
 
     public void insert(Compra compra);
-    List<Compra> list();
+    public List<Compra> list();
 }
