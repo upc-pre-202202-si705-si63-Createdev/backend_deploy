@@ -2,7 +2,8 @@ package CreateDev.BackEnd.entities;
 
 import javax.persistence.*;
 
-@Table(name = "Pedidos")
+@Entity
+@Table(name = "Pedido")
 public class Pedido {
 
     @Id
