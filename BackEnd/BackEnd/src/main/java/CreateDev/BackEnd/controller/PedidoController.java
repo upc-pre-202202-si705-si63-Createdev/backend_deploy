@@ -32,4 +32,9 @@ public class PedidoController {
     public void modificar(@RequestBody Pedido p) {
         pService.insert(p);
     }
+
+    @PostMapping("/buscar")
+    public List<Pedido> buscar(@RequestBody Pedido p) {
+        return pService.search(p.getNombre());
+    }
 }

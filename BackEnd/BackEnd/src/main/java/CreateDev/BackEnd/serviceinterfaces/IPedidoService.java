@@ -12,4 +12,5 @@ public interface IPedidoService {
 
     public void delete(int id);
 
+    List<Pedido> search(String nombre);
 }

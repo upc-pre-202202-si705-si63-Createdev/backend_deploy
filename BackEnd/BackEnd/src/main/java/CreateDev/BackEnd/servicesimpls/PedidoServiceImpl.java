@@ -28,4 +28,9 @@ public class PedidoServiceImpl implements IPedidoService {
     public void delete(int id) {
         pR.deleteById(id);
     }
+
+    @Override
+    public List<Pedido> search(String nombre) {
+        return pR.buscarNombre(nombre);
+    }
 }
