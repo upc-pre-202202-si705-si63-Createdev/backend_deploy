@@ -1,0 +1,27 @@
+package CreateDev.BackEnd.servicesimpls;
+
+import CreateDev.BackEnd.entities.Pedido;
+import CreateDev.BackEnd.repositories.IPedidoRepository;
+import CreateDev.BackEnd.serviceinterfaces.IPedidoService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class PedidoServiceImpl implements IPedidoService {
+
+    @Autowired
+    private IPedidoRepository pR;
+
+    @Override
+    public void insert(Pedido pedido) {
+        pR.save(pedido);
+    }
+
+    @Override
+    public List<Pedido> list() {
+        return pR.findAll();
+    }
+
+}
