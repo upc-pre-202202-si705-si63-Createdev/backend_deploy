@@ -27,4 +27,9 @@ public class PedidoController {
     public void eliminar(@PathVariable("id") Integer id) {
         pService.delete(id);
     }
+
+    @PutMapping
+    public void modificar(@RequestBody Pedido p) {
+        pService.insert(p);
+    }
 }

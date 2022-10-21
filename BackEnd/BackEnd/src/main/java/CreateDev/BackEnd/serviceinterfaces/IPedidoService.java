@@ -9,5 +9,7 @@ public interface IPedidoService {
     public void insert(Pedido pedido);
 
     List<Pedido> list();
-    public void delete (int id);
+
+    public void delete(int id);
+
 }
