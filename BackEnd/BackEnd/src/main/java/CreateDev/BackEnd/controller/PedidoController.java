@@ -22,4 +22,9 @@ public class PedidoController {
     public void registrar(@RequestBody Pedido p) {
         pService.insert(p);
     }
+
+    @DeleteMapping
+    public void eliminar(@PathVariable("id") Integer id) {
+        pService.delete(id);
+    }
 }

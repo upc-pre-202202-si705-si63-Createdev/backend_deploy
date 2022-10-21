@@ -23,4 +23,9 @@ public class PedidoServiceImpl implements IPedidoService {
     public List<Pedido> list() {
         return pR.findAll();
     }
+
+    @Override
+    public void delete(int id) {
+        pR.deleteById(id);
+    }
 }
