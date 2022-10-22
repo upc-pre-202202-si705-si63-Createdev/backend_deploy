@@ -3,7 +3,7 @@ package CreateDev.BackEnd.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Compra")
+@Table(name = "compra")
 public class Compra {
 
     public Compra(){

@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 
 @RestController
-@RequestMapping("/compras")
+@RequestMapping("/compra")
 public class CompraController {
     @Autowired
     private ICompraService cService;
@@ -18,5 +18,8 @@ public class CompraController {
 
     @PostMapping
     public void registrar(@RequestBody Compra c){cService.insert(c);}
+
+    @DeleteMapping
+    public void eliminar(@PathVariable("id") Integer id){cService.delete(id);}
 
 }

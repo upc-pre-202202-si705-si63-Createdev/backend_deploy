@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="486bbbf4-eef8-4a80-9528-fe8667b6736d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/BackEnd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/controller/CompraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/controller/CompraController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/entities/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/entities/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/serviceinterfaces/ICompraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/serviceinterfaces/ICompraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/servicesimpls/CompraServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/servicesimpls/CompraServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/target/classes/CreateDev/BackEnd/controller/CompraController.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/target/classes/CreateDev/BackEnd/controller/CompraController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/target/classes/CreateDev/BackEnd/entities/Compra.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/target/classes/CreateDev/BackEnd/entities/Compra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/target/classes/CreateDev/BackEnd/servicesimpls/CompraServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/target/classes/CreateDev/BackEnd/servicesimpls/CompraServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Ricse" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/controller/CompraController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GTEYYslDohMpD9rTBB97BHXCMZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Backend_CreateDev_alt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2ef1323c08ddc2382d250091a0d76917&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="BackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="CreateDev.BackEnd.BackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="486bbbf4-eef8-4a80-9528-fe8667b6736d" name="Changes" comment="" />
+      <created>1666404222207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666404222207</updated>
+      <workItem from="1666404224649" duration="3220000" />
+      <workItem from="1666407506092" duration="182000" />
+      <workItem from="1666407784915" duration="431000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
