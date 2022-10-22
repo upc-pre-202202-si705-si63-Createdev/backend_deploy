@@ -29,4 +29,7 @@ public class CompraController {
     @PutMapping
     public void modificar(@RequestBody Compra c){cService.insert(c);}
 
+    @PostMapping("/buscar")
+    public List<Compra> buscar(@RequestBody Compra c){return cService.search(c.getNombre());}
+
 }

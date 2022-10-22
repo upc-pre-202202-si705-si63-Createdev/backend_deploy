@@ -25,5 +25,10 @@ public class CompraServiceImpl implements ICompraService {
         cR.deleteById(id);
     }
 
+    @Override
+    public List<Compra> search(String nombre) {
+        return cR.buscarNombre(nombre);
+    }
+
 
 }
