@@ -14,9 +14,13 @@ public class CompraController {
     private ICompraService cService;
 
     @GetMapping
-    public List<Compra> listar(){return cService.list();}
+    public List<Compra> listar() {
+        return cService.list();
+    }
 
     @PostMapping
-    public void registrar(@RequestBody Compra c){cService.insert(c);}
+    public void registrar(@RequestBody Compra c) {
+        cService.insert(c);
+    }
 
 }
