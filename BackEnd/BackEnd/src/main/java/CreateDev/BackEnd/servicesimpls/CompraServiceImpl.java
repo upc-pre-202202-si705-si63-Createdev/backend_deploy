@@ -20,4 +20,10 @@ public class CompraServiceImpl implements ICompraService {
     @Override
     public List<Compra> list(){return cR.findAll();}
 
+    @Override
+    public void delete(int id) {
+        cR.deleteById(id);
+    }
+
+
 }

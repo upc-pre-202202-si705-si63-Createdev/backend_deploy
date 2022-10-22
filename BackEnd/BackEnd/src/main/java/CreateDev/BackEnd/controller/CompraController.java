@@ -23,4 +23,7 @@ public class CompraController {
         cService.insert(c);
     }
 
+    @DeleteMapping
+    public void eliminar(@PathVariable("id") Integer id){cService.delete(id);}
+
 }
