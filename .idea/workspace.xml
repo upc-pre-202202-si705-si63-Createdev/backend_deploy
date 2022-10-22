@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486bbbf4-eef8-4a80-9528-fe8667b6736d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/controller/CompraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/controller/CompraController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/repositories/ICompraRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/repositories/ICompraRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/serviceinterfaces/ICompraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/serviceinterfaces/ICompraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/servicesimpls/CompraServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackEnd/BackEnd/src/main/java/CreateDev/BackEnd/servicesimpls/CompraServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +96,7 @@
       <updated>1666404222207</updated>
       <workItem from="1666404224649" duration="3220000" />
       <workItem from="1666407506092" duration="182000" />
-      <workItem from="1666407784915" duration="762000" />
+      <workItem from="1666407784915" duration="1275000" />
     </task>
     <servers />
   </component>
