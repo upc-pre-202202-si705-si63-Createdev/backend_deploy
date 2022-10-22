@@ -26,4 +26,7 @@ public class CompraController {
     @DeleteMapping
     public void eliminar(@PathVariable("id") Integer id){cService.delete(id);}
 
+    @PutMapping
+    public void modificar(@RequestBody Compra c){cService.insert(c);}
+
 }
