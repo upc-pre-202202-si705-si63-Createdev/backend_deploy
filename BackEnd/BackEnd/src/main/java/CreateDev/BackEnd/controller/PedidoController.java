@@ -23,7 +23,7 @@ public class PedidoController {
         pService.insert(p);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public void eliminar(@PathVariable("id") Integer id) {
         pService.delete(id);
     }
