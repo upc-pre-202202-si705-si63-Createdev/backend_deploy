@@ -36,4 +36,5 @@ public class TipoComprobanteController {
     @PostMapping("/buscar")
     public List<TipoComprobante> buscar(@RequestBody TipoComprobante t) { return tService.search(t.getcomprobante());
     }
+    //hola
 }
