@@ -12,5 +12,5 @@ public interface ITipoComprobanteService {
 
     List<TipoComprobante> search(String comprobante);
 
-    //hola
+    //ho
 }
