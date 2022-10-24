@@ -36,6 +36,4 @@ public class TipoComprobante {
     public void setcomprobante(String comprobante) {
         this.comprobante = comprobante;
     }
-
-    //hola como estas
 }
