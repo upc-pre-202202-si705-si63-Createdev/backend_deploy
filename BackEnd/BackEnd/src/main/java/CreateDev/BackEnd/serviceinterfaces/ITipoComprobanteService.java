@@ -11,6 +11,4 @@ public interface ITipoComprobanteService {
     public void delete(int id);
 
     List<TipoComprobante> search(String comprobante);
-
-    //ho
 }
