@@ -12,5 +12,5 @@ import java.util.List;
 public interface ITipoProductoRepository extends JpaRepository<TipoProducto,Integer>{
 
     @Query("FROM TipoProducto t WHERE t.tipoTipoProducto LIKE %:tipoTipoProducto%")
-    List<TipoProducto> buscartipoproducto(@Param("TipoProducto") String tipoproducto);
+    List<TipoProducto> buscartipoproducto(@Param("tipoTipoProducto") String tipoproducto);
 }
