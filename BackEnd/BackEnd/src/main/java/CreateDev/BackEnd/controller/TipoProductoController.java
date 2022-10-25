@@ -14,7 +14,7 @@ public class TipoProductoController {
     @Autowired
     private ITipoProductoService tService;
 
-    @GetMapping
+    @GetMapping("/lista")
     public List<TipoProducto> listar() {
         return tService.list();
     }

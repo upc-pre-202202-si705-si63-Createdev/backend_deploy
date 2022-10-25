@@ -13,7 +13,7 @@ public class PedidoController {
     @Autowired
     private IPedidoService pService;
 
-    @GetMapping
+    @GetMapping("/lista")
     public List<Pedido> listar() {
         return pService.list();
     }

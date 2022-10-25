@@ -13,7 +13,7 @@ public class ProductoController {
     @Autowired
     private IProductoService pService;
 
-    @GetMapping
+    @GetMapping("/lista")
     public List<Producto> listar() {
         return pService.list();
     }

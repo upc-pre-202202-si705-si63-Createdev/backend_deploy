@@ -13,7 +13,7 @@ public class TipoComprobanteController {
     @Autowired
     private ITipoComprobanteService tService;
 
-    @GetMapping
+    @GetMapping("/lista")
     public List<TipoComprobante> listar() {
         return tService.list();
     }
